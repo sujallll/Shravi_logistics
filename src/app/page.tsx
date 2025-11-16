@@ -13,6 +13,7 @@ import { FounderSection } from "@/sections/founder-section";
 import { OfficeSection } from "@/sections/office-section";
 import { VideoSection } from "@/sections/video-section";
 import { StatsSection } from "@/sections/stats-section";
+import { ContactSection } from "@/sections/contact-section";
 import { CTASection } from "@/sections/cta-section";
 
 export default function HomePage() {
@@ -41,6 +42,7 @@ export default function HomePage() {
             <OfficeSection />
             <VideoSection />
             <StatsSection />
+            <ContactSection />
             <CTASection />
           </main>
           <Footer />
