@@ -12,9 +12,8 @@
 
 ### 2. **Environment Variables**
 - [x] `.env` file is in `.gitignore` ✅
-- [x] `.env.example` created (if needed) ✅
+- [x] No environment variables required for current features ✅
 - [x] No API keys hardcoded in source code ✅
-  - All secrets use `process.env` variables
 
 ### 3. **Build Artifacts**
 - [x] `node_modules/` is in `.gitignore` ✅
@@ -84,19 +83,7 @@ git commit -m "Add videos with Git LFS"
 
 ## 🔒 Environment Variables Setup
 
-After pushing, set up environment variables in your hosting platform:
-
-1. **Vercel/Netlify**:
-   - Go to project settings
-   - Add environment variables:
-     - `RESEND_API_KEY`
-     - `RESEND_FROM_EMAIL`
-     - `COMPANY_EMAIL`
-
-2. **Local Development**:
-   - Copy `.env.example` to `.env`
-   - Fill in your actual values
-   - Never commit `.env` file
+No environment variables are required. Remove any outdated keys from your hosting provider to keep the project configuration clean.
 
 ## ✅ Ready to Push!
 

@@ -8,7 +8,6 @@ A modern, responsive logistics company website built with Next.js, TypeScript, a
 - **Dark Mode**: Full dark mode support with theme toggle
 - **Responsive Design**: Mobile-first, fully responsive layout
 - **Animations**: Smooth animations using Framer Motion
-- **Contact Form**: Functional contact form with email integration
 - **Performance**: Optimized for speed and SEO
 
 ## 🛠️ Tech Stack
@@ -17,7 +16,6 @@ A modern, responsive logistics company website built with Next.js, TypeScript, a
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **Animations**: Framer Motion
-- **Email**: Resend API
 - **Icons**: Lucide React
 
 ## 📦 Installation
@@ -33,17 +31,7 @@ cd shravi-logistics
 npm install
 ```
 
-3. Set up environment variables:
-```bash
-cp .env.example .env
-```
-
-Edit `.env` and add your:
-- `RESEND_API_KEY` - Get from [Resend](https://resend.com/api-keys)
-- `RESEND_FROM_EMAIL` - Your verified sender email
-- `COMPANY_EMAIL` - Company email for contact form submissions
-
-4. Run the development server:
+3. Run the development server:
 ```bash
 npm run dev
 ```
@@ -74,7 +62,6 @@ shravi-logistics/
 │   └── images/          # Static images and videos
 ├── src/
 │   ├── app/             # Next.js app directory
-│   │   ├── api/         # API routes
 │   │   ├── globals.css  # Global styles
 │   │   ├── layout.tsx   # Root layout
 │   │   └── page.tsx     # Home page
@@ -91,11 +78,7 @@ shravi-logistics/
 
 ## 🔒 Environment Variables
 
-Required environment variables (see `.env.example`):
-
-- `RESEND_API_KEY` - Resend API key for email functionality
-- `RESEND_FROM_EMAIL` - Verified sender email address
-- `COMPANY_EMAIL` - Email address to receive contact form submissions
+No environment variables are required for the current feature set.
 
 ## 📄 License
 
@@ -103,4 +86,4 @@ Private project - All rights reserved
 
 ## 👥 Contact
 
-For inquiries, please use the contact form on the website.
+For inquiries, please use the contact details in the site footer.
