@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resendApiKey = process.env.RESEND_API_KEY;
+const resend = resendApiKey ? new Resend(resendApiKey) : null;
 
 export async function POST(request: NextRequest) {
   try {
@@ -31,24 +32,31 @@ ${message}
 This email was sent from the contact form on shravilogistics.com
     `.trim();
 
-    // Send email using Resend
-    try {
-      await resend.emails.send({
-        from: process.env.RESEND_FROM_EMAIL || 'onboarding@resend.dev',
-        to: process.env.COMPANY_EMAIL || 'info@shravilogistics.com',
-        replyTo: email,
-        subject: emailSubject,
-        text: emailBody,
-      });
+    // Send email using Resend if configured
+    if (resend) {
+      try {
+        await resend.emails.send({
+          from: process.env.RESEND_FROM_EMAIL || 'onboarding@resend.dev',
+          to: process.env.COMPANY_EMAIL || 'info@shravilogistics.com',
+          replyTo: email,
+          subject: emailSubject,
+          text: emailBody,
+        });
 
-      return NextResponse.json(
-        { message: 'Form submitted successfully' },
-        { status: 200 }
-      );
-    } catch (emailError) {
-      console.error('Error sending email:', emailError);
-      // If Resend is not configured, still return success but log the error
-      // In production, you should handle this properly
+        return NextResponse.json(
+          { message: 'Form submitted successfully' },
+          { status: 200 }
+        );
+      } catch (emailError) {
+        console.error('Error sending email:', emailError);
+        // If Resend fails, still return success but log the error
+        return NextResponse.json(
+          { message: 'Form submitted successfully' },
+          { status: 200 }
+        );
+      }
+    } else {
+      console.warn('Resend API key not configured. Skipping email send.');
       return NextResponse.json(
         { message: 'Form submitted successfully' },
         { status: 200 }
