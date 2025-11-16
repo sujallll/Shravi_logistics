@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  @apply bg-background text-slate-800 antialiased font-body;
+}
+
+.dark body {
+  @apply bg-background-dark text-slate-200;
+}
+
+a {
+  @apply transition-colors;
+}
+
+h1,
+h2 {
+  @apply font-heading;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  @apply font-subheading;
+}
+
+.glass {
+  @apply backdrop-blur-lg bg-white/80 border border-white/30 shadow-raised;
+}
+
+.card {
+  @apply rounded-3xl bg-white text-slate-800 shadow-raised border border-slate-200;
+}
+
+.dark .card {
+  @apply bg-slate-900 text-slate-200 border-slate-800;
+}
+
+.card-dark {
+  @apply rounded-3xl bg-ocean text-white shadow-deep border border-white/10;
+}
+
+.dark .card-dark {
+  @apply bg-slate-950/90;
+}
+
