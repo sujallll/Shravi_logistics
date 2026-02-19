@@ -105,24 +105,19 @@ export const values = [
 
 export const whyChooseUs = [
   {
-    title: "30+ Years Experience",
+    title: "End-to-End Integration",
     description:
-      "Three decades of delivering complex logistics infrastructure projects across the UK."
+      "From clearance and freight to warehousing and delivery, we provide a single, seamless solution that simplifies your operations."
   },
   {
-    title: "Modern Fleet",
+    title: "Operational Transparency",
     description:
-      "Over 30 highly modernized delivery vehicles equipped with the latest technology."
+      "We prioritize clarity with real-time updates, upfront pricing, and open communication at every stage of the supply chain."
   },
   {
-    title: "100% Safe Delivery",
+    title: "Strategic Efficiency",
     description:
-      "Zero incidents record with comprehensive safety protocols and training programs."
-  },
-  {
-    title: "24/7 Support",
-    description:
-      "Round-the-clock customer service and operational support for all our clients."
+      "We don't just move goods; we optimize routes and costs to improve your bottom line."
   }
 ];
 

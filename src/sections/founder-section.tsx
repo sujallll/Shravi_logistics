@@ -30,26 +30,30 @@ export function FounderSection() {
           className="mx-auto mt-12 max-w-4xl"
         >
           <div className="flex flex-col items-center gap-8 md:flex-row md:items-start">
-            <div className="group relative h-64 w-64 flex-shrink-0 overflow-hidden rounded-2xl bg-slate-200 transition-all duration-500 hover:bg-primary p-2">
+            <div className="group relative aspect-[3/4] w-full max-w-[18rem] sm:max-w-[20rem] lg:max-w-[22rem] flex-shrink-0 overflow-hidden rounded-2xl bg-slate-200 transition-all duration-500 hover:bg-primary p-2">
               <div className="relative h-full w-full rounded-xl overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80"
+                  src="/images/founder.png"
                   alt="Founder"
                   fill
-                  className="object-cover grayscale transition-all duration-500 group-hover:grayscale-0 group-hover:scale-110"
+                  className="object-cover object-top grayscale transition-all duration-500 group-hover:grayscale-0 group-hover:scale-105"
                 />
               </div>
             </div>
             <div className="flex-1 text-center md:text-left">
               <h3 className="text-2xl font-semibold text-slate-900 dark:text-white">
-                Founder Name
+                Sandeep Singh
               </h3>
               <p className="mt-2 text-lg text-primary font-semibold">
                 Founder & CEO
               </p>
               <p className="mt-6 text-base leading-relaxed text-slate-600 dark:text-slate-300">
-                Add founder description here. This section can include information about the
-                founder&apos;s background, vision, and commitment to Shravi Logistics.
+                With over 20 years of industry expertise, Sandeep Singh leads Shravi Logistics with a
+                deep-rooted understanding of global trade and customs operations. Throughout his two-decade
+                career, he has mastered the complexities of supply chain management, building a reputation
+                for operational excellence and integrity. His leadership is focused on delivering
+                high-performance, transparent solutions that turn logistics into a strategic advantage for
+                every client.
               </p>
             </div>
           </div>

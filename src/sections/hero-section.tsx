@@ -60,7 +60,7 @@ export function HeroSection() {
         className="h-full w-full object-cover"
       >
         <source
-          src="/images/Hailuo_Video_keep the background white and _446118019885981697.mp4"
+          src="/images/Video_Editing_Remove_Black_Portion.mp4"
           type="video/mp4"
         />
       </video>

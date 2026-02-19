@@ -111,7 +111,7 @@ export function AboutSection() {
           <h3 className="text-center text-2xl font-semibold text-slate-900 dark:text-white md:text-3xl">
             Why Choose Us
           </h3>
-          <div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-12 grid gap-6 md:grid-cols-3">
             {whyChooseUs.map((item, index) => (
               <motion.div
                 key={item.title}
