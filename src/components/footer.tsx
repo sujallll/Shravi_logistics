@@ -26,7 +26,7 @@ export function Footer() {
                 SHRAVI
               </span>
               <span className="font-heading text-xs font-semibold text-white">
-                logistics
+                LOGISTICS
               </span>
             </Link>
             <h4 className="text-lg font-semibold text-white mb-4">Quick Links</h4>
@@ -96,7 +96,7 @@ export function Footer() {
         {/* Copyright */}
         <div className="mt-12 border-t border-white/10 pt-8">
           <div className="flex flex-col items-center justify-between gap-4 text-sm text-slate-500 sm:flex-row">
-            <div>© {new Date().getFullYear()} Shravi Logistics. All rights reserved.</div>
+            <div>© {new Date().getFullYear()} SHRAVI LOGISTICS. All rights reserved.</div>
             <div>Credits</div>
           </div>
         </div>

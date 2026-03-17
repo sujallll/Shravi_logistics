@@ -9,16 +9,16 @@ const contactMethods = [
     icon: Phone,
     title: "Call Our Team",
     description: "Speak directly with our logistics specialists.",
-    value: "+1 234 567 890",
-    href: "tel:+1234567890",
+    value: "+91 9628808393",
+    href: "tel:+91 9628808393",
     cta: "Call now",
   },
   {
     icon: Mail,
     title: "Email Us",
     description: "Share your requirements and receive a tailored plan.",
-    value: "info@shravilogistics.com",
-    href: "mailto:info@shravilogistics.com",
+    value: "shravilogistics22@gmail.com",
+    href: "mailto:shravilogistics22@gmail.com",
     cta: "Send email",
   },
   {
@@ -95,7 +95,7 @@ export function ContactSection() {
             </p>
             <div className="flex items-center gap-3 text-slate-700 dark:text-slate-200">
               <MapPin className="h-5 w-5 text-primary" />
-              <span>Schedule a visit and explore our operations hub.</span>
+              <span>Schedule a visit and explore our operations.</span>
             </div>
           </div>
           <div className="flex flex-col gap-4 rounded-2xl bg-gradient-to-br from-primary to-primary-dark p-8 text-white">

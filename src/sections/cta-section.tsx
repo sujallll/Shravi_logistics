@@ -25,7 +25,7 @@ export function CTASection() {
             Ready to Transform Your Logistics?
           </h2>
           <p className="mt-6 text-lg text-slate-200">
-            Join hundreds of satisfied clients who trust Shravi Logistics for their
+            Join hundreds of satisfied clients who trust SHRAVI LOGISTICS for their
             infrastructure needs. Let&apos;s build something great together.
           </p>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">

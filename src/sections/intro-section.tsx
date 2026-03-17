@@ -22,7 +22,7 @@ export function IntroSection() {
             We build, connect, and transform
           </h2>
           <p className="text-base leading-relaxed text-slate-200/80">
-            For over two decades, Shravi Logistics has supported public and private
+            For over two decades, SHRAVI LOGISTICS has supported public and private
             sector partners with the movement of goods, construction of critical
             infrastructure, and development of resilient communities across the UK.
           </p>

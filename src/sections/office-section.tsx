@@ -109,7 +109,7 @@ export function OfficeSection() {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Shravi Logistics Office Location"
+              title="SHRAVI LOGISTICS Office Location"
               className="w-full h-full"
             />
           </motion.div>

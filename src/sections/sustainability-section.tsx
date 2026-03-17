@@ -30,7 +30,7 @@ export function SustainabilitySection() {
               Building a sustainable world
             </h2>
             <p className="text-base text-slate-200">
-              Committed to science-based targets, Shravi Logistics is driving down carbon
+              Committed to science-based targets, SHRAVI LOGISTICS is driving down carbon
               emissions across our supply chain and investing in biodiversity enhancements
               at every site we deliver.
             </p>

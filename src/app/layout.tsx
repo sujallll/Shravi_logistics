@@ -26,15 +26,15 @@ const bodyFont = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Shravi Logistics | Delivering Vital Infrastructure",
+  title: "SHRAVI LOGISTICS | Delivering Vital Infrastructure",
   description:
-    "Shravi Logistics delivers logistics, infrastructure and community developments that accelerate sustainable growth across the UK.",
+    "SHRAVI LOGISTICS delivers logistics, infrastructure and community developments that accelerate sustainable growth across the UK.",
   openGraph: {
-    title: "Shravi Logistics",
+    title: "SHRAVI LOGISTICS",
     description:
       "Delivering vital logistics infrastructure for resilient communities across the UK.",
     url: "https://shravi-logistics.example",
-    siteName: "Shravi Logistics",
+    siteName: "SHRAVI LOGISTICS",
     locale: "en_GB",
     type: "website"
   }

@@ -22,7 +22,7 @@ export function CareersSection() {
             Shape the future of logistics
           </h2>
           <p className="text-base text-slate-200/80">
-            Shravi Logistics is building a diverse workforce of curious, talented people
+            SHRAVI LOGISTICS is building a diverse workforce of curious, talented people
             who are passionate about engineering a better future. From graduates to experienced
             experts, we offer clear pathways for careers that make a meaningful difference.
           </p>

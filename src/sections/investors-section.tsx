@@ -34,7 +34,7 @@ export function InvestorsSection() {
             Partnership for long-term value
           </h2>
           <p className="mt-4 text-base text-slate-200/80">
-            Resilient and well-focused for our medium-term plan, Shravi Logistics delivers
+            Resilient and well-focused for our medium-term plan, SHRAVI LOGISTICS delivers
             long-term value for investors through disciplined execution and transparent reporting.
           </p>
         </div>

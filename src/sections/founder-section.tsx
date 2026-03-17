@@ -45,10 +45,10 @@ export function FounderSection() {
                 Sandeep Singh
               </h3>
               <p className="mt-2 text-lg text-primary font-semibold">
-                Founder & CEO
+                Founder
               </p>
               <p className="mt-6 text-base leading-relaxed text-slate-600 dark:text-slate-300">
-                With over 20 years of industry expertise, Sandeep Singh leads Shravi Logistics with a
+                With over 20 years of industry expertise, Sandeep Singh leads SHRAVI LOGISTICS with a
                 deep-rooted understanding of global trade and customs operations. Throughout his two-decade
                 career, he has mastered the complexities of supply chain management, building a reputation
                 for operational excellence and integrity. His leadership is focused on delivering

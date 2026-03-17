@@ -17,11 +17,8 @@ export function VideoSection() {
             Showreel
           </p>
           <h2 className="mt-3 text-2xl font-semibold text-white md:text-3xl">
-            See Shravi Logistics in Action
+            SHRAVI LOGISTICS
           </h2>
-          <p className="mt-4 text-base text-slate-300">
-            Discover how we deliver world-class logistics solutions across the UK
-          </p>
         </motion.div>
 
         <motion.div

@@ -30,7 +30,7 @@ export function Navbar() {
             SHRAVI
           </span>
           <span className="font-heading text-xs font-semibold text-slate-900 dark:text-white">
-            logistics
+            LOGISTICS
           </span>
         </Link>
 

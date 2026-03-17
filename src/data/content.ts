@@ -50,28 +50,28 @@ export const services: Service[] = [
     description:
       "Secure, flexible, and strategic. We offer safe storage solutions, from short-term holding to long-term inventory management, keeping your goods secure and ready.",
     image:
-      "https://images.unsplash.com/photo-1471623320832-752e8bbf8413?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80"
   },
   {
     title: "Transportation",
     description:
       "Reliable \"last mile\" delivery. We seamlessly connect the port to your doorstep, ensuring your cleared cargo arrives safely and on time.",
     image:
-      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1713859272775-2e1cf7d777a1?auto=format&fit=crop&w=800&q=80"
   },
   {
     title: "Licensing & Compliance",
     description:
       "End-to-end management of statutory licensing and regulatory compliance for imports and exports. We assist with DGFT, FSSAI, BIS, WPC, Plant/Animal Quarantine, and other approvals. Ensuring smooth market entry and error-free regulatory adherence for your business.",
     image:
-      "https://images.unsplash.com/photo-1604719312566-8912e9227c6a?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1562564055-71e051d33c19?auto=format&fit=crop&w=800&q=80"
   }
 ];
 
 export const companyInfo = {
-  title: "About Shravi Logistics",
+  title: "About SHRAVI LOGISTICS",
   description:
-    "Shravi Logistics is your expert Custom House Agent and strategic logistics partner, built to simplify and accelerate your global trade. Our team provides a complete, end-to-end solution, specializing in Custom Clearance, Freight Forwarding, Bulk Cargo Handling, Warehousing, Transportation, and expert Trade Advisory. We manage the full complexity of your supply chain with transparency and precision, ensuring your cargo moves seamlessly from origin to final destination."
+    "SHRAVI LOGISTICS is your expert Custom House Agent and strategic logistics partner, built to simplify and accelerate your global trade. Our team provides a complete, end-to-end solution, specializing in Custom Clearance, Freight Forwarding, Bulk Cargo Handling, Warehousing, Transportation, and expert Trade Advisory. We manage the full complexity of your supply chain with transparency and precision, ensuring your cargo moves seamlessly from origin to final destination."
 };
 
 export const mission = {
@@ -122,10 +122,9 @@ export const whyChooseUs = [
 ];
 
 export const stats = [
-  { label: "Projects Completed", value: "500+" },
-  { label: "Happy Clients", value: "1000+" },
-  { label: "Vehicles in Fleet", value: "30+" },
-  { label: "Years of Experience", value: "30+" }
+  { label: "Happy Clients", value: "200+" },
+  { label: "Vehicles in Fleet", value: "20+" },
+  { label: "Years of Experience", value: "20+" }
 ];
 
 export const projects: Project[] = [

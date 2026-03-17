@@ -67,7 +67,7 @@
 
 5. **Write Commit Message**
    ```
-   Initial commit - Shravi Logistics website
+  Initial commit - SHRAVI LOGISTICS website
    
    - Modern Next.js 14 website with TypeScript
    - Responsive design with dark mode

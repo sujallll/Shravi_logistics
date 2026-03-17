@@ -17,7 +17,7 @@ export function ServicesSection() {
             Our Services
           </h2>
           <p className="mt-4 text-base text-slate-600 dark:text-slate-300">
-            Shravi Logistics provides end-to-end services across the lifecycle of critical
+            SHRAVI LOGISTICS provides end-to-end services across the lifecycle of critical
             assets — from project financing and design to delivery, operations, and maintenance.
           </p>
         </div>

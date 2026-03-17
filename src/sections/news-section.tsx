@@ -17,7 +17,7 @@ export function NewsSection() {
             Stories from across the UK
           </h2>
           <p className="mt-4 text-base text-slate-200/80">
-            Discover how Shravi Logistics is partnering with communities, clients, and innovators
+            Discover how SHRAVI LOGISTICS is partnering with communities, clients, and innovators
             to deliver the next era of resilient infrastructure.
           </p>
         </div>
