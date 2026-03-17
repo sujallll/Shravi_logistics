@@ -38,7 +38,7 @@ export function CTASection() {
               Get Started Today
             </Button>
             <Button
-              href="tel:080888357"
+              href="tel:+919628808393"
               variant="solid"
               className="bg-primary text-white hover:bg-primary-dark"
             >

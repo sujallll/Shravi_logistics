@@ -10,7 +10,7 @@ const contactMethods = [
     title: "Call Our Team",
     description: "Speak directly with our logistics specialists.",
     value: "+91 9628808393",
-    href: "tel:+91 9628808393",
+    href: "tel:+919628808393",
     cta: "Call now",
   },
   {
@@ -24,7 +24,7 @@ const contactMethods = [
   {
     icon: Clock,
     title: "Office Hours",
-    description: "Available Monday to Friday, 9:00 AM – 6:00 PM IST.",
+    description: "Available Monday to Saturday, 9:00 AM – 6:00 PM IST.",
     value: "24/7 support for priority shipments",
     href: "#contact",
     cta: "Plan a call",
@@ -106,10 +106,10 @@ export function ContactSection() {
               Share your cargo details and timelines—we’ll return with a detailed roadmap within one business day.
             </p>
             <div className="mt-auto flex flex-wrap gap-3">
-              <Button href="mailto:info@shravilogistics.com" variant="ghost" className="bg-white/10 text-white hover:bg-white/20">
+              <Button href="mailto:shravilogistics22@gmail.com" variant="ghost" className="bg-white/10 text-white hover:bg-white/20">
                 Email our team
               </Button>
-              <Button href="tel:+1234567890" variant="outline" className="border-white/70 text-white hover:border-white hover:bg-white/10">
+              <Button href="tel:+919628808393" variant="outline" className="border-white/70 text-white hover:border-white hover:bg-white/10">
                 Speak now
               </Button>
             </div>

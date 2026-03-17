@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export function LoadingScreen() {
   const shraviLetters = ['S', 'H', 'R', 'A', 'V', 'I'];
-  const logisticsLetters = ['l', 'o', 'g', 'i', 's', 't', 'i', 'c', 's'];
+  const logisticsLetters = ['L', 'O', 'G', 'I', 'S', 'T', 'I', 'C', 'S'];
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-white dark:bg-slate-950">

@@ -29,7 +29,7 @@ export const services: Service[] = [
     description:
       "Swift, accurate, and compliant. We cut through the red tape to get your cargo cleared fast, minimizing delays and penalties.",
     image:
-      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=800&q=80"
+      "/images/custom-clearance.png"
   },
   {
     title: "Freight Forwarding",
@@ -43,7 +43,7 @@ export const services: Service[] = [
     description:
       "Expert handling for your non-containerized goods. We safely manage high-volume commodities like minerals and grains from loading to storage.",
     image:
-      "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80"
+      "/images/bulk-cargo.png"
   },
   {
     title: "Warehousing",
@@ -57,7 +57,7 @@ export const services: Service[] = [
     description:
       "Reliable \"last mile\" delivery. We seamlessly connect the port to your doorstep, ensuring your cleared cargo arrives safely and on time.",
     image:
-      "https://images.unsplash.com/photo-1713859272775-2e1cf7d777a1?auto=format&fit=crop&w=800&q=80"
+      "/images/transportation.png"
   },
   {
     title: "Licensing & Compliance",

@@ -57,15 +57,27 @@ export function Button({
     );
   }
 
+  const isNativeLink =
+    href.startsWith("mailto:") ||
+    href.startsWith("tel:") ||
+    href.startsWith("http://") ||
+    href.startsWith("https://");
+
   return (
     <motion.div
       whileHover={{ y: -2, scale: 1.01 }}
       whileTap={{ scale: 0.99 }}
       {...motionProps}
     >
-      <Link href={href} className={baseClasses} {...(props as ComponentPropsWithoutRef<"a">)}>
-        {content}
-      </Link>
+      {isNativeLink ? (
+        <a href={href} className={baseClasses} {...(props as ComponentPropsWithoutRef<"a">)}>
+          {content}
+        </a>
+      ) : (
+        <Link href={href} className={baseClasses} {...(props as ComponentPropsWithoutRef<"a">)}>
+          {content}
+        </Link>
+      )}
     </motion.div>
   );
 }

@@ -60,14 +60,14 @@ export function Footer() {
               </li>
               <li className="flex items-center justify-center gap-2">
                 <Phone className="h-4 w-4 flex-shrink-0" />
-                <Link href="tel:+1234567890" className="transition hover:text-primary-light">
-                  +1 234 567 890
+                <Link href="tel:+919628808393" className="transition hover:text-primary-light">
+                +91 9628808393
                 </Link>
               </li>
               <li className="flex items-center justify-center gap-2">
                 <Mail className="h-4 w-4 flex-shrink-0" />
-                <Link href="mailto:info@shravilogistics.com" className="transition hover:text-primary-light">
-                  info@shravilogistics.com
+                <Link href="mailto:shravilogistics22@gmail.com" className="transition hover:text-primary-light">
+                  shravilogistics22@gmail.com
                 </Link>
               </li>
             </ul>
