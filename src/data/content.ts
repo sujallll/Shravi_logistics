@@ -122,6 +122,7 @@ export const whyChooseUs = [
 ];
 
 export const stats = [
+  { label: "Projects Completed", value: "500+" },
   { label: "Happy Clients", value: "200+" },
   { label: "Vehicles in Fleet", value: "20+" },
   { label: "Years of Experience", value: "20+" }

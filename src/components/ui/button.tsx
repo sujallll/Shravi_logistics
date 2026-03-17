@@ -70,7 +70,15 @@ export function Button({
       {...motionProps}
     >
       {isNativeLink ? (
-        <a href={href} className={baseClasses} {...(props as ComponentPropsWithoutRef<"a">)}>
+        <a
+          href={href}
+          className={baseClasses}
+          onClick={() => {
+            // Ensure mailto/tel navigation works reliably across environments.
+            window.location.href = href;
+          }}
+          {...(props as ComponentPropsWithoutRef<"a">)}
+        >
           {content}
         </a>
       ) : (
